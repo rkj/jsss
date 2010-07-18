@@ -1,17 +1,17 @@
 require 'rubygems'
 require 'rake'
+require 'bundler'
 
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "jsss"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{JSon Simple Specification}
+    # gem.description = %Q{TODO: longer description of your gem}
     gem.email = "roman.kamyk@gmail.com"
     gem.homepage = "http://github.com/rkj/jsss"
     gem.authors = ["Roman Kamyk jr"]
-    gem.add_development_dependency "rspec", ">= 1.2.9"
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
+    gem.add_bundler_dependencies
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError

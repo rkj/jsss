@@ -1,6 +1,6 @@
 = jsss
 
-Description goes here.
+JSon Simple Specification.
 
 == Note on Patches/Pull Requests
  
